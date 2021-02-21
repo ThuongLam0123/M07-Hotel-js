@@ -23,6 +23,13 @@ h2 {
   color: #adffda; 
   font-weight: normal;}
 
+h2 + p {
+  margin: 0.25em 0 0 0;}
+p + p {
+  margin: 0;}
+p + h2 {
+  margin: 10px 0 0 0;}
+
 /* message under the logo */
 
 #message {
@@ -46,13 +53,6 @@ h2 {
   position: absolute;
   top: 0;
   right: 15%;}
-
-h2 + p {
-  margin: 0.25em 0 0 0;}
-p + p {
-  margin: 0;}
-p + h2 {
-  margin: 10px 0 0 0;}
 
 /* details in the black bar */
 
